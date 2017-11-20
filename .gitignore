@@ -1,0 +1,44 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#Runtime data
+pids
+*.pid
+*.seed
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# built docs
+/Documents and Settings
+
+#Generated component data
+/config/componentData.js
+
+# VSCode launch configuration
+launch.package.json
+
+# Webstorm
+.idea
